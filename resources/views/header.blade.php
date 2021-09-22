@@ -39,8 +39,8 @@
                 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Freelance</a>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/freelance">Freelance</a>
                         <a class="nav-link" href="#">Project</a>
                         <a class="nav-link" href="#">Source Kode</a>
                         <a class="nav-link" href="#">Artikel</a>

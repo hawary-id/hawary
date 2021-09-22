@@ -13,13 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-// route Navigasi
-Route::get('/', 'NavController@home');
-Route::get('/source_kode', 'NavController@source_kode');
-Route::get('/artikel', 'NavController@artikel');
-Route::get('/project', 'NavController@project');
-Route::get('/tentang', 'NavController@tentang');
+
+

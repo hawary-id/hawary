@@ -10,6 +10,10 @@ class NavController extends Controller
         return view('home');
     }
 
+    public function freelance(){
+        return view('home');
+    }
+
     public function source_kode(){
         return view('aplikasi');
     }

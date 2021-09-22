@@ -17,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// route Navigasi
+Route::get('/', 'NavController@home')->name('navhome');
+Route::get('/source_kode', 'NavController@source_kode')->name('navsource');
+Route::get('/artikel', 'NavController@artikel')->name('navartikel');
+Route::get('/freelance', 'NavController@freelance')->name('navfreelance');
+Route::get('/project', 'NavController@project')->name('navproject');
+Route::get('/tentang', 'NavController@tentang')->name('navtentang');
